@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Meu Sistema</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Cadastro de Clientes</h1>
+
+  <input type="text" id="nome" placeholder="Nome">
+  <input type="text" id="email" placeholder="Email">
+  <button onclick="adicionarCliente()">Adicionar</button>
+
+  <ul id="listaClientes"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<h1>Cadastro de Vendas</h1>
+
+<input type="text" id="nomeVenda" placeholder="Nome da venda">
+<input type="number" id="valorVenda" placeholder="Valor">
+<select id="statusVenda">
+  <option value="Aberta">Aberta</option>
+  <option value="Fechada">Fechada</option>
+</select>
+
+<button onclick="adicionarVenda()">Adicionar Venda</button>
+
+<h2>Total vendido: R$ <span id="totalVendas">0</span></h2>
+
+<ul id="listaVendas"></ul>
+
+<input type="text" id="busca" placeholder="Buscar cliente..." oninput="buscarCliente()">
