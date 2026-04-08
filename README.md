@@ -1,11 +1,32 @@
-Sistema web simples para gestão de clientes e vendas, desenvolvido com HTML, CSS e JavaScript puro.
+# CRM Simples - Sistema de Vendas
 
-Funcionalidades:
-- Cadastro de clientes
-- Registro de vendas
-- Edição e exclusão de vendas
-- Cálculo automático de vendas fechadas
-- Armazenamento local com localStorage
-- Busca de clientes em tempo real
+Um sistema de vendas simples usando **HTML, CSS, JavaScript** e **Firebase**.  
+Permite cadastrar, editar e deletar vendas em nuvem com Firestore.
 
-Projeto criado com foco em aprendizado de lógica, manipulação de DOM e simulação de um CRM real.
+---
+
+## 🛠 Funcionalidades
+
+- Adicionar novas vendas
+- Editar vendas existentes
+- Deletar vendas
+- Total de vendas calculado automaticamente
+- Dados salvos na nuvem (Firebase Firestore)
+- Sistema responsivo (funciona em celular e desktop)
+
+---
+
+## 💻 Tecnologias
+
+- HTML, CSS, JavaScript
+- Firebase (Firestore)
+- VS Code (extensões: Live Server, Prettier)
+
+---
+
+## 🚀 Como usar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
